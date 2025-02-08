@@ -1,37 +1,35 @@
-# AuthEase
+# AuthEase (Flutter)
 
-AuthEase is a user authentication system that simplifies the process of managing user signups, logins, and protected routes for web applications. It leverages modern authentication techniques like JWT (JSON Web Tokens) to provide secure and scalable authentication for your apps.
+AuthEase is a simple, secure user authentication system built using Flutter. It provides easy-to-integrate user registration, login, and protected route functionality for mobile applications. With a focus on smooth user experience and security, AuthEase is designed to be a lightweight yet reliable solution for handling user authentication in your Flutter app.
 
 ## Features
 
-- User registration (sign-up)
-- User login with JWT token generation
-- Protected routes using token-based authentication
-- User session management
-- Simple and easy-to-integrate into your app
+- User Registration (Sign-Up)
+- User Login
+- Secure JWT Token Authentication (If backend integration exists)
+- Protected Routes based on Authentication Status
+- Simple, easy-to-use UI for mobile apps
 
 ## Tech Stack
 
-- **Frontend**: React.js
-- **Backend**: Node.js with Express.js
-- **Database**: MongoDB (for storing user data)
-- **Authentication**: JWT (JSON Web Tokens)
-- **File Upload**: Multer (for handling file uploads)
-- **Password Hashing**: bcrypt.js (for securing user passwords)
+- **Frontend**: Flutter (Dart)
+- **Authentication**: Firebase (or Custom JWT token handling)
+- **State Management**: Provider / Riverpod (If used for managing authentication state)
 
 ## Getting Started
 
-Follow these instructions to get your project up and running locally.
+Follow these instructions to get the project up and running on your local machine for development and testing.
 
 ### Prerequisites
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [npm](https://www.npmjs.com/)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
 
-### Clone the repository
+### Installation
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/SasaNirmal/AuthEase.git
